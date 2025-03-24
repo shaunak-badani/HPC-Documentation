@@ -1,7 +1,7 @@
 #!/bin/zsh
-#SBATCH --mem=16G # 16 GBs RAM 
+#SBATCH --mem=8G # 8 GBs RAM 
 #SBATCH -p courses-gpu 
-#SBATCH --gres=gpu:2 
+#SBATCH --gres=gpu:1
 #SBATCH --exclusive
 
 
